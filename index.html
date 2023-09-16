@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>table,
+        th,
+        td {
+          padding: 10px;
+          border: 1px solid black;
+          border-collapse: collapse;
+        }</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,33 +17,25 @@
   </head>
   <body>
     <main>
-        <h1>Welcome to My First Website &#58; &#40;</h1> 
+    <section>
+        <h1>Welcome to My <sub>First</sub> Website &#58; &#40;</h1> 
         <h2 style="color: slateblue;">My name is <b> Anthony Lua</b> 
            , but you can call me Ant.</h2>
-           <h3><i>LOOK, the text is getting smaller. And Itallics</i></h3>
-           <h4><strong>LOOK, the text is getting smaller. STRONG</strong></LOOK></h4>
-           <h5><em>LOOK, the text is getting smaller. Emphasis is like italics.</em></h5>
-           <h6>LOOK, the text is getting smaller</h6>
-           <hr>
-           <h7>LOOK, the text is not that small now... </h7>
+           <h3><i>I recently switched from ME to CS, so bear w/ me lol</i></h3>
+           <h4><strong>New things are clicking every day</strong></h4>
+           <h5><em>I like to think I am a <u>fast learner</u></em></h5>
+           <h6>I love being outside, trying new foods, and lifting weights</h6>
+           <h1>Learning is awesome and unfortunately lately I find myself youtubing help this semester</h1>
+        </section>
            
-
+           <aside><a href="photos.html">Contact Page and Favorite Car</a></aside>
+           
+           
            <p>
-            <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i> <br><br><br>
-            <u>Etiam ut pretium nisi. In pulvinar laoreet venenatis. 
-            Duis sed nunc malesuada, rutrum tellus at, euismod ligula. 
-            Suspendisse potenti. Morbi sed leo accumsan ex gravida 
-            consequat sed ut tortor. Donec semper dignissim dolor, 
-            at volutpat nisi. Mauris vitae quam quis orci luctus 
-            fringilla non congue urna. Sed vestibulum nunc a dolor 
-            tempus varius. Aliquam et lorem facilisis eros sagittis 
-            rutrum. Aliquam quis leo a mauris sollicitudin ornare a 
-            ut mi. Donec cursus, neque in sollicitudin consectetur, 
-            turpis ex mollis diam, ut tempus quam ex nec neque. 
-            Praesent rutrum arcu ut maximus placerat. Curabitur quis 
-            purus metus. In pharetra luctus varius. Cras elementum 
-            elit convallis arcu volutpat euismod.</u>
+            My favorite dish right now, has got to be pad see ew <br><br><br>
+            I am Mexican, born in the USA with dual citizenship. I never really use my Mexican passport, weird huh. I speak both english and spanish. I think I blend in well, except for the fact that I am 5'6.
            </p>
+          
 
            <ul>
               <li>Chest and Tris</li>
@@ -54,17 +53,11 @@
            </ol>
            
            <button type="button" 
-           onclick="myFunction()">Set 
-           border</button>
-           <div id="myDiv">
+           onclick="myFunction()">Click for BLUE</button>
+           
+           
 
-            <style>table,
-              th,
-              td {
-                padding: 10px;
-                border: 1px solid black;
-                border-collapse: collapse;
-              }</style>
+           <div id="myDiv">
             <table>
             <tr>
               <th>Monday</th>
@@ -85,6 +78,8 @@
                 <td>Legs</td>
             </tr>
            </table></div>
+           I'm currently on a push/pull split
+
            <br>
            <script>
             function myFunction() {
@@ -94,11 +89,21 @@
 
            
 
-          <br><br>For FUN! &copy;
-          <a href="https://www.instagram.com/anthonylua/?hl=en"> Personal Instagram </a>
-          <br><img src="https://media.cnn.com/api/v1/images/stellar/prod/230317123712-13-instagram-app-phone-stock.jpg?c=original"
-                  width="240"
-                  height="160" />
+          <br><br>
+          <footer> FUN! &copy;</footer>
+          
+
+          
+
+          <a href="https://www.instagram.com/anthonylua/?hl=en"><ins>Personal Instagram</ins></a>
+          <img alt="" src="https://media.cnn.com/api/v1/images/stellar/prod/230317123712-13-instagram-app-phone-stock.jpg?c=original" 
+          width="240" 
+          height="160" >
+
+          <label for="site-search">Search the site:</label>
+          <input type="search" id="site-search" name="q">
+
+<button>Search</button>
     
         </main>
 	<script src="index.js"></script>
